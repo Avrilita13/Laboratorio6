@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E4F7FF;
+        }
+        header {
+            background-color: #47abf3;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-image: url('azul.jpg');
+            background-size: cover;
+            padding: 10px;
+            text-align: center;
+        }
+            nav a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #fff;
+                font-weight: bold;
+                background-color: rgb(42 69 143 / 0.50);
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        .main-content {
+            text-align: justify;
+            margin-top: 20px;
+        }
+            .main-content p {
+                text-align: justify;
+            }
+        .center-title {
+            text-align: center;
+        }
+            .large-image img {
+                max-width: 100%;
+                height: auto;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avril Calderón Luna</h1>
+    </header>
+    <nav>
+        <a href="pagina1.html" class="active">Página 1</a>
+        <a href="pagina2.html">Página 2</a>
+        <a href="pagina3.html">Página 3</a>
+    </nav>
+    <div class="main-content">
+        <h2 class="center-title">¿Cuáles son los síntomas de la depresión en adolescentes?</h2>
+        <p>Si tienes depresión, uno o más de estos síntomas se presentarían con frecuencia:</p>
+        <ul class="text-left">
+            <li>Tristeza</li>
+            <li>Sensación de vacío</li>
+            <li>Desesperanza</li>
+            <li>Sentir enojo, irritación o frustración, incluso por cosas menores</li>
+            <li>No te importan las cosas que solías disfrutar.</li>
+            <li>Cambios de peso, como perder peso cuando no estás a dieta o aumentar de peso por comer demasiado</li>
+            <li>Cambios en el sueño, como problemas para quedarte o permanecer dormido, o dormir mucho más de lo normal</li>
+            <li>Sentirte inquieto o tener problemas para permanecer sentado</li>
+            <li>Sentirte muy cansado o no tener energía</li>
+            <li>Sentirte sin valor o muy culpable</li>
+            <li>Tener problemas para concentrarte, recordar información o tomar decisiones</li>
+            <li>Pensar en la muerte o suicidio</li>
+        </ul>
+        <ul class="text-center">
+            <h2>¿Cómo saber si tengo ansiedad?</h2>
+                <p>Haz el siguiente test, tu respuesta será enviada por correo electrónico</p>
+                <!-- Formulario de suscripción de Bootstrap -->
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico">
+                        <small id="emailHelp" class="form-text text-muted">No se comparte información personal</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">INICIAR TEST</button>
+                </form>
+            </ul>
+            <!-- Tarjetas (Cards) -->
+            <div class="card">
+                <div class="card">
+                    <img src="dep1.jpg" class="card-img-top" alt="Sobrepensar">
+                    <div class="card-body">
+                        <h5 class="card-title">La ansiedad </h5>
+                        <p class="card-text">La ansiedad es la mente yendo más de prisa</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="dep2.jpeg" class="card-img-top" alt="Depresión">
+                    <div class="card-body">
+                        <h5 class="card-title">La depresion</h5>
+                        <p class="card-text">Tu depresión no es un problema técnico, es una señal</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="dep3.jpg" class="card-img-top" alt="Suicidio">
+                    <div class="card-body">
+                        <h5 class="card-title">El suicidio</h5>
+                        <p class="card-text">Esta bien pedir ayuda... a veces no hay otra opción</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Botón de regreso al inicio con el mismo diseño que la página 2 -->
+            <button onclick="window.location.href='index.html'" class="btn btn-primary mt-3">Regresar</button>
+    </div>
+    <!-- Componentes de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
